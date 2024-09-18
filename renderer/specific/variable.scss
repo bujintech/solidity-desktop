@@ -1,0 +1,116 @@
+$text-4: #677282;
+$text-3: #86909c;
+$text-2: #b0b6c0;
+$text-1: #ffffff;
+$text-6: #3d4551;
+$text-7: #2f363e;
+$text-5: #4e5969;
+$text-8: #1d2129;
+$fill-3: #f7f8fa;
+$fill-2: #fafafa;
+$fill-1: #ffffff;
+$fill-5: #e4e6e8;
+$fill-6: #c9cdd4;
+$fill-7: #86909c;
+$fill-4: #f2f3f5;
+$fill-9: #4e5969;
+$fill-10: #1d2129;
+$fill-8: #677282;
+$line-2: #e4e6e8;
+$line-4: #c9cdd4;
+$line-3: #d8dbdf;
+$line-1: #f2f3f5;
+$line-5: #86909c;
+$main: #1677ff;
+$sca-main: #5650d5;
+$sca-main-hover: #837be3;
+$sca-main-disabled: #d9d4fa;
+$sca-main-background: #f3f0ff;
+$sca-main-active: #3c3ab0;
+$main-hover: #4096ff;
+$main-background: #ecf5fd;
+$main-disabled: #bae0ff;
+$main-active: #0958d9;
+$warning-background: #fbf6df;
+$warning-hover: #f9b200;
+$warning: #f09100;
+$warning-text: #d87c00;
+$success-hover: #69d133;
+$success: #51bf1b;
+$success-text: #3a9a19;
+$success-background: #eef9e9;
+$waiting-background: #e6fbff;
+$waiting-text: #1f8add;
+$error: #eb2b35;
+$error-active: #cb1827;
+$error-hover: #ff4d4f;
+$error-background: #ffeeee;
+$link: #1677ff;
+$link-hover: #4096ff;
+$link-active: #0958d9;
+$safe_level-common: #f9b200;
+$safe_level-common-text: #b36700;
+$fix_suggestion-select: #8b8bb7;
+$license-low: #8b8bb7;
+$license-unknown-text: #86909c;
+$fix_suggestion-select-text: #636397;
+$license-low-text: #6a679b;
+$fix_suggestion-select-bg: #e6e6f7;
+$license-low-bg: #e6e6f7;
+$license-unknown: #b0b6c0;
+$license-unknown-bg: #ecedef;
+$fix_suggestion-safe-1: #77d6ad;
+$license-safe-1: #77d6ad;
+$fix_suggestion-safe-2: #29bb7b;
+$license-safe-2: #29bb7b;
+$fix_suggestion-safe-bg: #def5eb;
+$license-safe-bg: #def5eb;
+$fix_suggestion-safe-text: #19905b;
+$license-safe-text: #19905b;
+$safe_level-serious: #f66732;
+$safe_level-serious-text: #d5420b;
+$fix_suggestion-medium: #f9b200;
+$license-medium: #f9b200;
+$fix_suggestion-medium-bg: #ffebb8;
+$license-medium-bg: #ffebb8;
+$fix_suggestion-medium-text: #d87c00;
+$license-medium-text: #d87c00;
+$safe_level-recommendation: #8b8bb7;
+$safe_level-recommendation-text: #6a679b;
+$safe_level-unknown: #b0b6c0;
+$safe_level-unknown-text: #86909c;
+$safe_level-fatal: #a61414;
+$safe_level-fatal-text: #7f0714;
+$fix_suggestion-strong: #eb2b35;
+$license-high: #f66732;
+$fix_suggestion-strong-bg: #ffd5d0;
+$license-high-bg: #ffd9ca;
+$fix_suggestion-strong-text: #cb1827;
+$license-high-text: #d5420b;
+
+.radius-8 {
+  border-radius: 8px 8px 8px 8px
+}
+
+;
+
+.radius-16 {
+  border-radius: 16px 16px 16px 16px
+}
+
+;
+
+.radius-24 {
+  border-radius: 24px 24px 24px 24px
+}
+
+;
+
+
+.shadow-dialog {
+  box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-floating {
+  box-shadow: 0px 8px 26px 4px rgba(0, 0, 0, 0.1);
+}

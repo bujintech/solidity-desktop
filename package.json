@@ -1,0 +1,52 @@
+{
+  "name": "solidity-desktop",
+  "version": "1.0.0",
+  "main": "dist-electron/main/index.js",
+  "description": "Solidity setState desktop app",
+  "author": "season <zhouxishun01@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && electron-builder",
+    "preview": "vite preview",
+    "pree2e": "vite build --mode=test",
+    "e2e": "playwright test"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@web3modal/ethers": "^5.1.7",
+    "antd": "^5.20.6",
+    "electron-updater": "^6.1.8",
+    "ethers": "^6.13.2",
+    "lodash": "^4.17.21",
+    "react-draggable": "^4.4.6"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/lodash": "^4.17.7",
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.18",
+    "electron": "^29.1.1",
+    "electron-builder": "^24.13.3",
+    "postcss": "^8.4.35",
+    "postcss-import": "^16.0.1",
+    "prettier": "^3.3.3",
+    "prettier-plugin-organize-imports": "^4.0.0",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.78.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.4.2",
+    "vite": "^5.1.5",
+    "vite-plugin-commonjs": "^0.10.1",
+    "vite-plugin-electron": "^0.28.4",
+    "vite-plugin-electron-renderer": "^0.14.5"
+  },
+  "iconConfigPath": "./renderer/icon"
+}
